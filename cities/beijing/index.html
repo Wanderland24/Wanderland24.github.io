@@ -150,7 +150,7 @@ CONTACT US!
 <script>const gallery5=document.querySelectorAll('.page5 .carousel img');let idx_5=0;const len=gallery5.length;function updateCarousel5(){gallery5.forEach(a=>a.classList.remove('l1','l2','visible','r1','r2'));const a=(idx_5-2+len)%len,b=(idx_5-1+len)%len,c=(idx_5+1)%len,d=(idx_5+2)%len;gallery5[a].classList.add('l2'),gallery5[b].classList.add('l1'),gallery5[idx_5].classList.add('visible'),gallery5[c].classList.add('r1'),gallery5[d].classList.add('r2'),idx_5=(idx_5+1)%len}updateCarousel5(),gallery5.forEach((a,b)=>{a.addEventListener("click",function(){idx_5=b,gallery5.forEach(a=>a.classList.remove('l1','l2','visible','r1','r2'));const a=(idx_5-2+len)%len,c=(idx_5-1+len)%len,d=(idx_5+1)%len,e=(idx_5+2)%len;gallery5[a].classList.add('l2'),gallery5[c].classList.add('l1'),gallery5[idx_5].classList.add('visible'),gallery5[d].classList.add('r1'),gallery5[e].classList.add('r2'),idx_5=(idx_5+1)%len})}),setInterval(updateCarousel5,3e3);const gallery2=document.querySelectorAll('.page2 .carousel img'),len2=gallery2.length;let idx_2=0;function updateCarousel2(){gallery2.forEach(a=>a.classList.remove('l1','visible','r1','r2'));const a=(idx_2-1+len2)%len2,b=(idx_2+1)%len2,c=(idx_2+2)%len2;gallery2[a].classList.add('l1'),gallery2[idx_2].classList.add('visible'),gallery2[b].classList.add('r1'),gallery2[c].classList.add('r2'),idx_2=(idx_2+1)%len2}updateCarousel2(),setInterval(updateCarousel2,3e3)</script></div>
 </div>
 </div>
-</main><footer class=bg-tlgray-100 style=z-index:1>
+</main><footer class=bg-tlgray-100>
 <script src=/js/clipboard.min.js></script>
 <script src=/js/highlight.min.js></script>
 <script src=/js/highlightjs-line-numbers.min.js></script>
